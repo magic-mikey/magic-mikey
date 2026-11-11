@@ -1,7 +1,6 @@
 Hey! I'm Mikey, and I code things sometimes!
 
 ```mermaid
-%%{init: {"flowchart": {"rankSpacing": 25}}}%%
 flowchart LR
     A[💡 think of thing] --> B[caffeinate]
     B --> C[make thing]
