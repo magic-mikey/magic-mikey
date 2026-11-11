@@ -1,13 +1,12 @@
 Hey! I'm Mikey, and I code things sometimes!
 
-Here's the very scientific process:
-
 ```mermaid
-flowchart TD
+%%{init: {"flowchart": {"rankSpacing": 25}}}%%
+flowchart LR
     A[💡 think of thing] --> B[caffeinate]
     B --> C[make thing]
     C --> D{does thing work?}
-    D -- "no" --> E[kill bug fix thing]
+    D -- "no" --> E[kill bug]
     E --> C
     D -- "yes" --> F[🚀 full send]
     F --> G[think of more thing]
